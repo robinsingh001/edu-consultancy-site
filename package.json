@@ -1,9 +1,24 @@
-"homepage": "https://robinsingh001.github.io/edu-consultancy-site",
-"scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
+{
+  "name": "edu-consultancy-site",
+  "version": "1.0.0",
+  "homepage": "https://robinsingh001.github.io/edu-consultancy-site",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "lucide-react": "^0.292.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.2",
+    "vite": "^4.3.9",
+    "gh-pages": "^6.0.0"
+  }
 }
-
