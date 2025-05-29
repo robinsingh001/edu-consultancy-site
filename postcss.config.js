@@ -1,1 +1,6 @@
-PLACEHOLDER - Replace with actual code from canvas.
+module.exports = {
+  plugins: {
+    tailwindcss: {},
+    autoprefixer: {},
+  },
+};
